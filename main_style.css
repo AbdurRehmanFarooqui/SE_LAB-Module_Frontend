@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 html {
     font-size: 10px;
     font-family: "Alata", sans-serif;
@@ -16,7 +18,7 @@ body{
     align-items: center
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 
 
 .left_sec{
@@ -67,7 +69,7 @@ body{
     width: calc(100% - 520px);
     background-color: rgb(255, 255, 255);
     height: 93vh;
-    padding: 100px 50px;
+    padding: 50px 50px;
     box-sizing: border-box;
 }
 h3 {
@@ -86,18 +88,57 @@ h3 {
 .head_detail div{
     padding: 15px;
     display: flex;
+    align-items: center;
 }
 .head{
     color: #000000;
-    /* padding: 15px 10px; */
     font-size: 2rem;
-    width: 200px;
+    font-weight: 400;
+    width: 250px;
     display: block;
 }
 
 .detail{
-    padding: 0px 50px;
     color: #AFA5A5;
     font-size: 2.4rem;
-    /* padding: 10px 10px; */
+    font-weight: 400;
+    /* display: block;
+    align-items: end;
+    display: flex; */
+}
+.date{
+    margin-left: 200px;
+}
+.date div{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.date .head{
+    width: 150px;
+}
+.test_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px 20px 8px;
+}
+h4 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    /* padding: 30px 8px; */
+    color: #000000;
+}
+
+.test{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px 20px 15px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    color: #AFA5A5;
+    font-weight: 400;
 }
