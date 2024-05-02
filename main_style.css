@@ -1,0 +1,103 @@
+html {
+    font-size: 10px;
+    font-family: "Alata", sans-serif;
+    font-weight: 600;
+    color: #686868;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #CABCB0;
+    display: flex;
+    align-items: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+.left_sec{
+    width: 500px;
+    /* background-color: aqua; */
+    height: 100vh;
+}
+.logo {
+    padding: 35px 45px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #686868;
+    font-family: "Alata", sans-serif;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.sidebar{
+    padding: 200px 80px;
+    
+    font-size: 2.4rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar li{
+    list-style: none;
+    padding: 15px 24px;
+    /* margin-left: 80px; */
+    display: flex;
+    align-items: center;
+}
+.sidebar li span{
+    margin-left: 44px;
+}
+.sidebar li:hover{
+    background-color: #ffffff72;
+    cursor: pointer;
+}
+
+
+
+.right_sec{
+    width: calc(100% - 520px);
+    background-color: rgb(255, 255, 255);
+    height: 93vh;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+h3 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 30px 8px;
+    color: #000000;
+    font-family: "Alata", sans-serif;
+}
+
+.pres_detail{
+    display: flex;
+    letter-spacing: 1px;
+}
+.head_detail div{
+    padding: 15px;
+    display: flex;
+}
+.head{
+    color: #000000;
+    /* padding: 15px 10px; */
+    font-size: 2rem;
+    width: 200px;
+    display: block;
+}
+
+.detail{
+    padding: 0px 50px;
+    color: #AFA5A5;
+    font-size: 2.4rem;
+    /* padding: 10px 10px; */
+}
